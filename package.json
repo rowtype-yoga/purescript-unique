@@ -1,18 +1,13 @@
 {
-  "name": "purescript-unique",
-  "version": "0.0.1",
-  "description": "Data.Unique for PureScript",
-  "dependencies": {
-    "gulp-run": "^1.6.7"
+  "private": true,
+  "scripts": {
+    "postinstall": "pulp dep install",
+    "build": "jshint src && jscs src && pulp build && pulp test && rimraf docs && pulp docs"
   },
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-purescript": "^0.3.1",
-    "vinyl-source-stream": "^1.0.0"
-  },
-  "scripts": {
-    "test": "gulp test",
-    "make": "gulp make",
-    "watch": "gulp watch"
+    "jscs": "^1.13.1",
+    "jshint": "^2.8.0",
+    "pulp": "^4.0.1",
+    "rimraf": "^2.4.1"
   }
 }

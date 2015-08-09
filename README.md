@@ -3,4 +3,4 @@ purescript-unique [![Build Status](https://travis-ci.org/mechairoi/purescript-un
 Data.Unique for PureScript.
 
 ## Documentations
-- [Module documentation](MODULE.md)
+- [Data.Unique](docs/Data/Unique.md)

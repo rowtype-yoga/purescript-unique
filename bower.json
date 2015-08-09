@@ -1,0 +1,23 @@
+{
+  "name": "purescript-unique",
+  "version": "0.0.1",
+  "homepage": "https://github.com/mechairoi/purescript-unique",
+  "authors": [
+    "mechairoi <ttsujikawa@gmail.com>"
+  ],
+  "keywords": [
+    "purescript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

@@ -1,17 +1,17 @@
 module Data.Unique
   ( newUnique
   , Unique()
-  , Uniq()
+  , UNIQ()
   ) where
 
 import Control.Monad.Eff
 import Prelude
 
-foreign import data Uniq :: !
+foreign import data UNIQ :: !
 
 newtype Unique = Unique String
 
-foreign import newUnique :: forall e. Eff (uniq :: Uniq | e) Unique
+foreign import newUnique :: forall e. Eff (uniq :: UNIQ | e) Unique
 
 instance showUnique :: Show Unique where
   show (Unique a) = a

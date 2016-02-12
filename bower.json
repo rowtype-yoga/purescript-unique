@@ -1,6 +1,7 @@
 {
   "name": "purescript-unique",
   "homepage": "https://github.com/mechairoi/purescript-unique",
+  "description": "Data.Unique for PureScript",
   "keywords": [
     "purescript"
   ],

@@ -14,9 +14,9 @@ newtype Unique
 
 ##### Instances
 ``` purescript
-instance showUnique :: Show Unique
-instance eqUnique :: Eq Unique
-instance ordUnique :: Ord Unique
+Show Unique
+Eq Unique
+Ord Unique
 ```
 
 #### `newUnique`

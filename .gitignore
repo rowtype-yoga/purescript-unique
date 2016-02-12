@@ -5,3 +5,4 @@
 /.psci
 /npm-debug.log*
 /.pulp-cache
+/.pursuit.json

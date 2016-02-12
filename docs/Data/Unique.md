@@ -1,9 +1,9 @@
 ## Module Data.Unique
 
-#### `Uniq`
+#### `UNIQ`
 
 ``` purescript
-data Uniq :: !
+data UNIQ :: !
 ```
 
 #### `Unique`
@@ -22,7 +22,7 @@ Ord Unique
 #### `newUnique`
 
 ``` purescript
-newUnique :: forall e. Eff (uniq :: Uniq | e) Unique
+newUnique :: forall e. Eff (uniq :: UNIQ | e) Unique
 ```
 
 

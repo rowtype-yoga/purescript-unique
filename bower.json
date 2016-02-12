@@ -1,20 +1,22 @@
 {
   "name": "purescript-unique",
-  "version": "0.1.0",
   "homepage": "https://github.com/mechairoi/purescript-unique",
-  "authors": [
-    "mechairoi <ttsujikawa@gmail.com>"
-  ],
   "keywords": [
     "purescript"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/purescript/purescript-prelude.git"
+  },
   "ignore": [
     "**/.*",
-    "node_modules",
     "bower_components",
+    "node_modules",
+    "output",
     "test",
-    "tests"
+    "bower.json",
+    "package.json"
   ],
   "dependencies": {
     "purescript-eff": "^0.1.2",

@@ -1,6 +1,6 @@
 {
-  "name": "purescript-virtual-dom",
-  "description": "virtual-dom bindings for PureScript",
+  "name": "purescript-unique",
+  "description": "Data.Unique for PureScript",
   "private": true,
   "license": "MIT",
   "devDependencies": {

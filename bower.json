@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "purescript-eff": "^0.1.2",
-    "purescript-prelude": "^0.1.4"
+    "purescript-prelude": "^0.1.5"
   },
   "devDependencies": {
     "purescript-console": "^0.1.1",

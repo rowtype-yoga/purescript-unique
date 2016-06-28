@@ -20,11 +20,11 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-eff": "^0.1.2",
-    "purescript-prelude": "^0.1.5"
+    "purescript-prelude": "~1.0.1",
+    "purescript-eff": "~1.0.0"
   },
   "devDependencies": {
-    "purescript-console": "^0.1.1",
-    "purescript-assert": "^0.1.1"
+    "purescript-console": "~1.0.0",
+    "purescript-assert": "~1.0.0"
   }
 }

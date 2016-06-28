@@ -4,8 +4,8 @@ module Data.Unique
   , UNIQ()
   ) where
 
-import Control.Monad.Eff
-import Prelude
+import Control.Monad.Eff (Eff)
+import Prelude (class Ord, class Eq, class Show, compare, (==))
 
 foreign import data UNIQ :: !
 

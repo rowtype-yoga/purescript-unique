@@ -3,7 +3,7 @@
 #### `UNIQ`
 
 ``` purescript
-data UNIQ :: !
+data UNIQ :: Prim.Effect
 ```
 
 #### `Unique`

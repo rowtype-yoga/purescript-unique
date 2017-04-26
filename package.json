@@ -1,18 +1,14 @@
 {
-  "name": "purescript-unique",
-  "description": "Data.Unique for PureScript",
   "private": true,
-  "license": "MIT",
   "devDependencies": {
-    "jscs": "^2.9.0",
-    "jshint": "^2.9.1",
-    "pulp": "^9.0.1",
-    "rimraf": "^2.5.1"
+    "eslint": "^3.19.0",
+    "pulp": "^11.0.0",
+    "purescript-psa": "^0.5.1",
+    "rimraf": "^2.6.1"
   },
   "scripts": {
-    "postinstall": "bower install",
-    "build": "jshint src && jscs src && pulp build && rimraf docs && pulp docs",
-    "docs": "pulp docs",
+    "clean": "rimraf output && rimraf .pulp-cache",
+    "build": "eslint src && pulp build -- --censor-lib --strict",
     "test": "pulp test"
   }
 }

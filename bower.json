@@ -2,9 +2,6 @@
   "name": "purescript-unique",
   "homepage": "https://github.com/mechairoi/purescript-unique",
   "description": "Data.Unique for PureScript",
-  "keywords": [
-    "purescript"
-  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,11 +17,11 @@
     "package.json"
   ],
   "dependencies": {
-    "purescript-prelude": "^2.1.0",
-    "purescript-eff": "^2.0.0"
+    "purescript-prelude": "^3.0.0",
+    "purescript-eff": "^3.1.0"
   },
   "devDependencies": {
-    "purescript-console": "^2.0.0",
-    "purescript-assert": "^2.0.0"
+    "purescript-console": "^3.0.0",
+    "purescript-assert": "^3.0.0"
   }
 }

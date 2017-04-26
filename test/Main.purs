@@ -1,6 +1,6 @@
 module Test.Main where
 
-import Prelude ((==), ($), (/=), bind, Unit)
+import Prelude ((==), ($), (/=), discard, bind, Unit)
 import Data.Unique (newUnique, UNIQ)
 import Test.Assert (assert, ASSERT)
 import Control.Monad.Eff (Eff)

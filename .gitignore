@@ -1,8 +1,7 @@
-/bower_components
-/node_modules
-/.psci_modules
-/output
-/.psci
-/npm-debug.log*
-/.pulp-cache
-/.pursuit.json
+/.*
+!/.gitignore
+!/.eslintrc.json
+!/.travis.yml
+/bower_components/
+/node_modules/
+/output/

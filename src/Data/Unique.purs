@@ -4,10 +4,10 @@ module Data.Unique
   , UNIQ()
   ) where
 
-import Control.Monad.Eff (Eff)
+import Control.Monad.Eff (Eff, kind Effect)
 import Prelude (class Ord, class Eq, class Show, compare, (==))
 
-foreign import data UNIQ :: !
+foreign import data UNIQ :: Effect
 
 newtype Unique = Unique String
 

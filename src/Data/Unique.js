@@ -20,7 +20,7 @@ function iter(i) {
   }
 }
 
-exports.newUnique = function () {
+export function newUnique() {
   iter(0);
   return uniqueSource.length === 1 ? uniqueSource[0] + "" : uniqueSource.join(",");
 };

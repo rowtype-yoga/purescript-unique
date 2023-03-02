@@ -1,12 +1,12 @@
 module Test.Main where
 
 import Prelude ((==), ($), (/=), discard, bind, Unit)
-import Data.Unique (newUnique, UNIQ)
-import Test.Assert (assert, ASSERT)
-import Control.Monad.Eff (Eff)
-import Control.Monad.Eff.Console (log, CONSOLE)
+import Data.Unique (newUnique)
+import Test.Assert (assert)
+import Effect (Effect)
+import Effect.Console (log)
 
-main :: forall e. Eff (console :: CONSOLE , uniq :: UNIQ , assert :: ASSERT | e) Unit
+main :: Effect Unit
 main = do
   log "Test Data.Unique"
   a <- newUnique

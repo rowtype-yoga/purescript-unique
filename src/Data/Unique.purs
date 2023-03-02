@@ -1,17 +1,14 @@
 module Data.Unique
   ( newUnique
-  , Unique()
-  , UNIQ()
+  , Unique
   ) where
 
-import Control.Monad.Eff (Eff, kind Effect)
+import Effect (Effect)
 import Prelude (class Ord, class Eq, class Show, compare, (==))
-
-foreign import data UNIQ :: Effect
 
 newtype Unique = Unique String
 
-foreign import newUnique :: forall e. Eff (uniq :: UNIQ | e) Unique
+foreign import newUnique :: Effect Unique
 
 instance showUnique :: Show Unique where
   show (Unique a) = a

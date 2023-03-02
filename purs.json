@@ -1,0 +1,21 @@
+{
+  "name": "unique",
+  "owners": [
+    {
+      "email": "nick@saunde.rs",
+      "keytype": "ssh-ed25519",
+      "public": "AAAAC3NzaC1lZDI1NTE5AAAAICm0Ar7rHAWONOM4qA5q777/CQaN6cHvcBq3VXB7d5Yw"
+    }
+  ],
+  "version": "0.5.1",
+  "license": "MIT",
+  "location": {
+    "githubOwner": "mechairoi",
+    "githubRepo": "purescript-unique"
+  },
+  "description": "Data.Unique for PureScript",
+  "dependencies": {
+    "prelude": ">=3.0.0 <4.0.0",
+    "eff": ">=3.1.0 <4.0.0"
+  }
+}

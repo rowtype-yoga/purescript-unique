@@ -7,10 +7,12 @@ Notable changes are documented in this file. The format is based on [Keep a Chan
 Breaking changes:
 
 New features:
+- Added `hashUnique` function. (#4 by @nsaunders)
 
 Bugfixes:
 
 Other improvements:
+- Changed `Unique`'s runtime representation to a [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt). (#4 by @nsaunders)
 
 ## [0.6.0] - 2023-03-02
 

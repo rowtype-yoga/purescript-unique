@@ -16,6 +16,7 @@
   "description": "Data.Unique for PureScript",
   "dependencies": {
     "prelude": ">=6.0.0 <7.0.0",
-    "effect": ">=4.0.0 <5.0.0"
+    "effect": ">=4.0.0 <5.0.0",
+    "refs": ">=6.0.0 <7.0.0"
   }
 }

@@ -1,7 +1,7 @@
 module Test.Main where
 
-import Prelude ((==), ($), (/=), discard, bind, Unit)
-import Data.Unique (newUnique)
+import Prelude
+import Data.Unique (hashUnique, newUnique)
 import Test.Assert (assert)
 import Effect (Effect)
 import Effect.Console (log)
@@ -11,5 +11,7 @@ main = do
   log "Test Data.Unique"
   a <- newUnique
   b <- newUnique
-  assert $ a /= b
   assert $ a == a
+  assert $ a < b
+  assert $ hashUnique a == hashUnique a
+  assert $ hashUnique a /= hashUnique b

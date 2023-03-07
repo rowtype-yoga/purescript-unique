@@ -18,7 +18,8 @@
   ],
   "dependencies": {
     "purescript-prelude": "^6.0.0",
-    "purescript-effect": "^4.0.0"
+    "purescript-effect": "^4.0.0",
+    "purescript-refs": "^6.0.0"
   },
   "devDependencies": {
     "purescript-console": "^6.0.0",

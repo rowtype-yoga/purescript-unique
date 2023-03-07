@@ -1,27 +1,29 @@
-/* global exports */
-"use strict";
+export var zero = BigInt("0");
 
-// module Data.Unique
+var one = BigInt("1");
 
-var MAX_SAFE_INTEGER = 9007199254740991;
-var uniqueSource = [];
-
-function iter(i) {
-  if (uniqueSource.length === i) {
-    for (var j = 0; j < i; ++j) uniqueSource[j] = 0;
-    uniqueSource[i] = 1;
-  } else {
-    if (uniqueSource[i] === MAX_SAFE_INTEGER) {
-      uniqueSource[i] = 0;
-      iter(i + 1);
-    } else {
-      uniqueSource[i]++;
-    }
-  }
+export function eqImpl(a) {
+  return function(b) {
+    return a === b;
+  };
 }
 
-export function newUnique() {
-  iter(0);
-  return uniqueSource.length === 1 ? uniqueSource[0] + "" : uniqueSource.join(",");
-};
+export function ordImpl(lt) {
+  return function (eq) {
+    return function (gt) {
+      return function (x) {
+        return function (y) {
+          return x < y ? lt : x === y ? eq : gt;
+        };
+      };
+    };
+  };
+}
 
+export function addOne(x) {
+  return x + one;
+}
+
+export function hashUnique(x) {
+  return parseInt(BigInt.asIntN(32, x));
+}

@@ -13,6 +13,7 @@ Bugfixes:
 
 Other improvements:
 - Changed `Unique`'s runtime representation to a [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt). (#4 by @nsaunders)
+- Updated the project to the standards of the [purescript-contrib](https://github.com/purescript-contrib) organization. ([8ec352b](https://github.com/nsaunders/purescript-unique/commit/8ec352ba1f7076c57c776872c2bc8ce7eb530e44) by @nsaunders)
 
 ## [0.6.0] - 2023-03-02
 

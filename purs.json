@@ -10,7 +10,7 @@
   "version": "0.6.1",
   "license": "MIT",
   "location": {
-    "githubOwner": "mechairoi",
+    "githubOwner": "nsaunders",
     "githubRepo": "purescript-unique"
   },
   "description": "Data.Unique for PureScript",

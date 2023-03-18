@@ -1,7 +1,7 @@
 # Unique
 
-[![CI](https://github.com/nsaunders/purescript-unique/workflows/CI/badge.svg?branch=master)](https://github.com/nsaunders/purescript-unique/actions?query=workflow%3ACI+branch%3Amaster)
-[![Release](https://img.shields.io/github/release/nsaunders/purescript-unique.svg)](https://github.com/nsaunders/purescript-unique/releases)
+[![CI](https://github.com/rowtype-yoga/purescript-unique/workflows/CI/badge.svg?branch=master)](https://github.com/rowtype-yoga/purescript-unique/actions?query=workflow%3ACI+branch%3Amaster)
+[![Release](https://img.shields.io/github/release/rowtype-yoga/purescript-unique.svg)](https://github.com/rowtype-yoga/purescript-unique/releases)
 [![Pursuit](https://pursuit.purescript.org/packages/purescript-unique/badge)](https://pursuit.purescript.org/packages/purescript-unique)
 [![Maintainer: nsaunders](https://img.shields.io/badge/maintainer-nsaunders-teal.svg)](https://github.com/nsaunders)
 
@@ -29,14 +29,14 @@ The quick start hasn't been written yet (contributions are welcome!). The quick 
 
 If you get stuck, there are several ways to get help:
 
-- [Open an issue](https://github.com/nsaunders/purescript-unique/issues) if you have encountered a bug or problem.
+- [Open an issue](https://github.com/rowtype-yoga/purescript-unique/issues) if you have encountered a bug or problem.
 - Ask general questions on the [PureScript Discourse](https://discourse.purescript.org) forum or the [PureScript Discord](https://discord.com/invite/sMqwYUbvz6) chat.
 
 ## Contributing
 
 You can contribute to `unique` in several ways:
 
-1. If you encounter a problem or have a question, please [open an issue](https://github.com/nsaunders/purescript-unique/issues). We'll do our best to work with you to resolve or answer it.
+1. If you encounter a problem or have a question, please [open an issue](https://github.com/rowtype-yoga/purescript-unique/issues). We'll do our best to work with you to resolve or answer it.
 
 2. If you would like to contribute code, tests, or documentation, please [read the contributor guide](./CONTRIBUTING.md). It's a short, helpful introduction to contributing to this library, including development instructions.
 

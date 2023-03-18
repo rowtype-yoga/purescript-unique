@@ -11,7 +11,7 @@ New features:
 Bugfixes:
 
 Other improvements:
-- Updated the project for its new home in the Rowtype Yoga organization.
+- Updated the project for its new home in the Rowtype Yoga organization. ([50e18df](https://github.com/rowtype-yoga/purescript-unique/commit/50e18dfe14082186abc103b3c969343cf998cad0) by @nsaunders)
 
 ## [0.6.1] - 2023-03-18
 
